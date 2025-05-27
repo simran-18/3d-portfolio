@@ -124,17 +124,27 @@ const techStackIcons = [
 ];
 
 const expCards = [
+   {
+    imgPath: "/images/logo.png",
+    logoPath: "/images/logo.png",
+    title: "Senior Software Engineer",
+    date: "May 2025 - Present",
+    responsibilities:[
+      "Integrating an Admin Dashboard using MUI (Material UI), Redux, Styled Component , Formik managing 20+ operators and having real-time analytics, complaint resolution, user management ,wallet ,tournament creation modules.",
+      "Leading a complete website revamp using React.js and Framer Motion to deliver a fully responsive, cross-browser compatible experience with smooth transitions and modern UI/UX standards."
+    ]
+  },
   {
     imgPath: "/images/logo.png",
     logoPath: "/images/logo.png",
     title: "Software Engineer",
-    date: "July 2022 - Present",
+    date: "July 2022 - May 2025",
     responsibilities:[
-      "Partnered with the UI/UX team to build a scalable reusable component library of 30+ UI elements, accelerating development cycles and ensuring brand-consistent user interfaces.",
-      "Automated testing pipelines with React Testing Library and Jest, achieving 85%+ test coverage across multiple projects and elevating code reliability.",
-      "Diagnosed and resolved 50+ high-priority bugs, enhancing system stability and overall product reliability across large-scale applications.",
-      "Engineered and deployed multilingual, AI-powered chatbot platforms using OpenAI API and Socket.io, enabling seamless, real-time communication across user bases.",
-      "Architected a centralized file management system for multimedia content, and built an intuitive interactive dashboard to manage S3-hosted assets, drastically improving user experience and data accessibility.",
+      "Developing a high-performance EVA Dashboard with role-based access control (RBAC), config-driven dynamic forms (React Hook Form & Zod), and reusable data grids, reducing development time by 40% and supporting 15+ concurrent operators.",
+      "Integrated Google OAuth for secure authentication, enabling subscription-based voice morphing and Google Contacts fetching, supporting 100K+ users and enhancing user workflows and data security.",
+      "Developed and deployed Elastic Reporting Dashboard, improving data accuracy by 30% and reducing analysis time by 40%.",
+      "Enhanced application performance by 50% using Code Splitting, Lazy Loading, and Tree Shaking, improving load times and engagement.",
+      " Developed an AI-driven chatbot using OpenAI API and Socket.io, handling 40% of customer inquiries and optimizing support workflows."
     ]
   },
   {
@@ -143,11 +153,10 @@ const expCards = [
     title: "Software Engineer Trainee",
     date: "January 2022 - July 2022",
     responsibilities: [
-      "Spearheaded the integration of a cutting-edge voice morphing platform with Google OAuth, in collaboration with the IVR team, enhancing secure Gmail contact authentication and empowering 100K+ monthly users.",
-      "Engineered a robust Elastic Reporting Dashboard to track user interactivity in real-time, boosting data accuracy by 30% and slashing analysis time by 40%.",
-      "Turbocharged application performance by implementing Code Splitting, Lazy Loading, and Advanced Caching, resulting in 50% faster load times and significantly improved user satisfaction.",
-      "Elevated security posture from C+ to A by configuring AWS build headers, cutting incident response time by 50% and fortifying the app against critical vulnerabilities.",
-      "Designed and launched a feature-rich Admin Dashboard using Material UI, powering 100+ multi- and single-player games for 40+ operators, serving 10,000+ users monthly with capabilities like leaderboard tracking, real-time analytics, access controls, and complaint resolution backed by Elastic Reporting."
+      "Built a reusable component library with 30+ UI elements in collaboration with UI/UX team, boosting development efficiency.",
+      "Built high-coverage Jest test suites, reaching 90%+ code coverage and preventing critical bugs before deployment.",
+      "Resolved 50+ critical bugs, enhancing system reliability and stability across multiple projects.",
+      "Launched a comprehensive multimedia content management system (CMS) with an intuitive dashboard, allowing for the management of 1M+ digital assets reducing the operations team efforts by 50%."    
     ],
   }
 ];
@@ -174,6 +183,7 @@ const socialImgs = [
     imgPath: "/images/linkedin.png",
     link:"https://www.linkedin.com/in/simrandeep-kaur-55a9b81b6/"
   },
+  
 ];
 
 export {
