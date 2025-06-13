@@ -149,19 +149,19 @@ const projects = [
   {
     title: "Blackngreen Website",
     img: "/images/website.png",
-    // url: "https://revamp.blackngreen.com/",
+    url: "https://revamp.blackngreen.com/",
     bg: "bg-black",
   },
   {
     title: "Nexiva Website",
     img: "/images/nexiva.png",
-    // url: "https://nexiva.ai/",
+    url: "https://nexiva.ai/",
     bg: "bg-black",
   },
   {
     title: "Education Portal",
     img: "/images/edu.png",
-    // url: "https://dev.educarportal.com/subscribe",
+    url: "https://dev.educarportal.com/subscribe",
     bg: "bg-black",
   },
   {
@@ -173,13 +173,13 @@ const projects = [
   {
     title: "Swipe4win",
     img: "/images/swipe4win.png",
-    // url: "https://livedemo-sp.swipe4win.com/",
+    url: "https://livedemo-sp.swipe4win.com/",
     bg: "bg-black",
   },
    {
     title: "Mobibattle",
     img: "/images/mobibattle_portal.png",
-    // url: "https://demo.mobibattle.com/#/",
+    url: "https://demo.mobibattle.com/#/",
     bg: "bg-black",
   },
   {
@@ -188,6 +188,12 @@ const projects = [
     url: "https://smart-shopping-cart-project.netlify.app/",
     bg: "bg-black",
   },
+  // {
+  //   title: "To do Tasks",
+  //   img: "/images/smart-cart.png",
+  //   url: "https://smart-shopping-cart-project.netlify.app/",
+  //   bg: "bg-black",
+  // },
 ];
 
 const AppShowcase = () => {
