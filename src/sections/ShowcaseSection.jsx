@@ -188,12 +188,12 @@ const projects = [
     url: "https://smart-shopping-cart-project.netlify.app/",
     bg: "bg-black",
   },
-  // {
-  //   title: "To do Tasks",
-  //   img: "/images/smart-cart.png",
-  //   url: "https://smart-shopping-cart-project.netlify.app/",
-  //   bg: "bg-black",
-  // },
+  {
+    title: "To do Tasks",
+    img: "/images/todo-list.png",
+    url: "https://simran-18.github.io/to-do/",
+    bg: "bg-black",
+  },
 ];
 
 const AppShowcase = () => {
