@@ -1,11 +1,10 @@
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { IoLogoGithub } from "react-icons/io";
+import { FaReact, FaGitAlt, FaNodeJs, FaNpm } from "react-icons/fa";
+import { IoLogoJavascript, IoLogoGithub } from "react-icons/io";
+import { SiTypescript, SiNextdotjs, SiRedux, SiStyledcomponents, SiFramer, SiAxios, SiJest, SiTestinglibrary, SiSocketdotio, SiWebpack, SiJira } from "react-icons/si";
+
 const navLinks = [
   {
     name: "Work",
@@ -33,8 +32,8 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 3, suffix: "+", label: "Years of Experience" },
-  { value: 10, suffix: "+", label: "Completed Projects" },
+  { value: 3, suffix: "+", label: "Years of Professional Experience" },
+  { value: 13, suffix: "+", label: "Completed Projects" },
 ];
 
 const abilities = [
@@ -56,38 +55,27 @@ const abilities = [
 ];
 
 const techStackImgs = [
-    {
-      skill: "HTML",
-      icon: FaHtml5,
-    },
-    {
-      skill: "CSS",
-      icon: FaCss3Alt,
-    },
-    {
-      skill: "JavaScript",
-      icon: IoLogoJavascript,
-    },
-    {
-      skill: "TypeScript",
-      icon: SiTypescript,
-    },
-    {
-      skill: "ReactJS",
-      icon: FaReact,
-    },
-    {
-      skill: "Redux",
-      icon: SiRedux,
-    },
-    {
-      skill: "TailwindCSS",
-      icon: RiTailwindCssFill,
-    },
-    {
-      skill: "Github",
-      icon: IoLogoGithub,
-    }
+  { skill: "HTML", icon: FaHtml5 },
+  { skill: "CSS", icon: FaCss3Alt },
+  { skill: "TailwindCSS", icon: RiTailwindCssFill },
+  { skill: "JavaScript", icon: IoLogoJavascript },
+  { skill: "TypeScript", icon: SiTypescript },
+  { skill: "React.js", icon: FaReact },
+  { skill: "Next.js", icon: SiNextdotjs },
+  { skill: "Node.js", icon: FaNodeJs },
+  { skill: "Socket.io", icon: SiSocketdotio },
+  { skill: "Redux", icon: SiRedux },
+  // { skill: "Material UI", icon: SiMaterialui },
+  { skill: "Styled Components", icon: SiStyledcomponents },
+  { skill: "Framer Motion", icon: SiFramer },
+  { skill: "Axios", icon: SiAxios },
+  { skill: "Jest", icon: SiJest },
+  { skill: "React Testing Library", icon: SiTestinglibrary },
+  { skill: "Git", icon: FaGitAlt },
+  { skill: "GitHub", icon: IoLogoGithub },
+  { skill: "NPM", icon: FaNpm },
+  { skill: "Webpack", icon: SiWebpack },
+  { skill: "Jira", icon: SiJira },  
 ];
 
 const techStackIcons = [

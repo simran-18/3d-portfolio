@@ -182,16 +182,22 @@ const projects = [
     url: "https://demo.mobibattle.com/#/",
     bg: "bg-black",
   },
-  {
-    title: "Smart cart",
-    img: "/images/smart-cart.png",
-    url: "https://smart-shopping-cart-project.netlify.app/",
-    bg: "bg-black",
-  },
+  // {
+  //   title: "Smart cart",
+  //   img: "/images/smart-cart.png",
+  //   url: "https://smart-shopping-cart-project.netlify.app/",
+  //   bg: "bg-black",
+  // },
   {
     title: "To do Tasks",
     img: "/images/todo-list.png",
     url: "https://simran-18.github.io/to-do/",
+    bg: "bg-black",
+  },
+  {
+    title: "Personal Assistant Management",
+    img: "/images/evapa.png",
+    url: "https://pa.tryeva.ai/",
     bg: "bg-black",
   },
 ];
